@@ -5,6 +5,7 @@ body {
 .container {
     width: 1200px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 /* секция HEADER */
 .header,
@@ -60,16 +61,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 200px;
+    padding-bottom: 210px;
+
 }
 .solutions h1 {
     color: var(--on-back-text);
     justify-content: center;
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 30px;
+    padding: 0 0 30px 0;
     font-size: 44px;
     font-weight: 900;
     text-transform: uppercase;
+    margin: 0;
 }
 .btn {
     background-color: var(--back-ad-hover);
@@ -79,7 +83,6 @@ body {
     padding: 10px 32px;
     border-radius: 5px;
     border: none;
-    margin-bottom: 210px;
 }
 .btn:hover {
     cursor: pointer;
@@ -88,10 +91,10 @@ body {
 .edge {
     display: flex;
     justify-content: space-between;
+    padding: 94px 0;
 }
 .edge li {
     width: 270px;
-    margin: 94px 0;
 }
 .edge h3 {
     text-transform: uppercase;
@@ -107,12 +110,15 @@ body {
     margin: 0;
 }
 /* секция ЧЕМ МЫ ЗАНИМАЕМСЯ */
+.we-doing {
+    padding-bottom: 94px;
+}
 .we-doing h2 {
     font-size: 34px;
     color: var(--main-text);
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 50px;
+    margin: 0;
+    padding-bottom: 50px;
 }
 .we-doing-images {
     display: flex;
@@ -120,11 +126,13 @@ body {
 }
 .img {
     width: 370px;
-    margin-bottom: 94px;
 }
 /* секция НАША КОМАНДА */
 .sec-team {
     background-color: var(--back-ad-main);
+    padding-top: 94px;
+    padding-bottom: 94px;
+
 }
 .sec-team li:hover {
     cursor: pointer;
@@ -133,7 +141,6 @@ body {
     color: var(--main-text);
     font-size: 36px;
     text-align: center;
-    padding-top: 94px;
     padding-bottom: 50px;
     margin: 0;
 }
@@ -153,7 +160,6 @@ body {
 .our-team li {
     width: 270px;
     background-color: var(--back-team);
-    margin-bottom: 94px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .member {
@@ -214,6 +220,7 @@ body {
 /* секция FOOTER */
 .footer-em {
     padding: 60px 15px;
+    margin: 0;
 }
 .emblem-footer {
     color: var(--on-back-text);
