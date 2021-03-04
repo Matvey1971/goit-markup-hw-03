@@ -8,6 +8,11 @@ body {
     margin: 0 auto;
 }
 /* секция HEADER */
+.sec-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
 .header,
 .header-nav,  
 .header-nav-list, 
@@ -16,8 +21,6 @@ body {
 }
 .header {
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
     align-items: center;
 }
 .emblem {
@@ -31,13 +34,15 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
 }
+.header-a {
+    margin-right: 50px;
+}
 .header-nav-list {
     align-items: center;
     margin-left: 93px;
 }
 .header-nav-list a {
     color: var(--main-text);
-    padding-right: 50px;
     font-size: 14px;
 }
 .header-nav-list .header-a-portfolio {
@@ -53,17 +58,15 @@ body {
     cursor: pointer;
 }
 /* секция ЭФФЕКТИВНЫЕ РЕШЕНИЯ */
-.ef-solutions,
-.footer {
+.ef-solutions {
     background-color: var(--back-main);
+    padding-top: 200px;
+    padding-bottom: 210px;
 }
 .solutions {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 200px;
-    padding-bottom: 210px;
-
 }
 .solutions h1 {
     color: var(--on-back-text);
@@ -88,10 +91,12 @@ body {
     cursor: pointer;
 }
 /* секция НАШИ ПРЕИМУЩЕСТВА */
+.sec-edge {
+    padding: 94px 0;
+}
 .edge {
     display: flex;
     justify-content: space-between;
-    padding: 94px 0;
 }
 .edge li {
     width: 270px;
@@ -166,16 +171,17 @@ body {
     width: 270px;
 }
 /* ПОРТФОЛИО */
+.sec-view {
+    padding-top: 94px;
+    padding-bottom: 64px;
+}
 .sec-view li:hover {
     cursor: pointer;
 }
 .tools {
     display: flex;
     justify-content: center;
-}
-.tools li {
-    margin-top: 94px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 .btns {
     background-color: var(--back-ad-main);
@@ -194,7 +200,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 64px;
 }
 .view li {
     border: 1px solid var(--line-view);
@@ -218,9 +223,12 @@ body {
 }
 
 /* секция FOOTER */
-.footer-em {
+.footer {
+    background-color: var(--back-main);
     padding: 60px 15px;
     margin: 0;
+}
+.footer-em {
 }
 .emblem-footer {
     color: var(--on-back-text);
